@@ -11,7 +11,6 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/quiz")
-@CrossOrigin("*")
 public class QuizzController {
 
     @Autowired
